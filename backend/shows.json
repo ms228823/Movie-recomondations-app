@@ -1,0 +1,153 @@
+{
+  "email_or_phone": "bob.smith@example.com",
+  "id": 2,
+  "name": "Bob Smith",
+  "likedMedia": [
+    { "media": "movie", "moviesids": [1, 2, 3, 4, 5] },
+    { "media": "series", "seriesids": [1, 2, 3, 4, 5] }
+  ],
+  "dislikedMedia": [
+    { "media": "moivie", "moviesids": [1, 2, 3, 4, 5] },
+    { "media": "series", "seriesids": [1, 2, 3, 4, 5] }
+  ],
+  "watchLaterMedia": [
+    { "media": "moivie", "moviesids": [1, 2, 3, 4, 5] },
+    { "media": "series", "seriesids": [1, 2, 3, 4, 5] }
+  ],
+  "blockedMedia": [
+    { "media": "moivie", "moviesids": [1, 2, 3, 4, 5] },
+    { "media": "series", "seriesids": [1, 2, 3, 4, 5] }
+  ],
+  "shows": [
+    {
+      "category_id": 1,
+      "category_name": "Drama",
+      "is_disliked": false,
+      "is_liked": false,
+      "show_age_limit": 18,
+      "show_category": "Drama",
+      "show_description": "A high school chemistry teacher turned methamphetamine producer.",
+      "show_id": 1,
+      "show_name": "Breaking Bad",
+      "show_rating": 9,
+      "show_time": "9:00 PM"
+    },
+    {
+      "category_id": 2,
+      "category_name": "Comedy",
+      "is_disliked": false,
+      "is_liked": false,
+      "show_age_limit": 13,
+      "show_category": "Comedy",
+      "show_description": "A mockumentary on a group of typical office workers.",
+      "show_id": 2,
+      "show_name": "The Office",
+      "show_rating": 8,
+      "show_time": "8:00 PM"
+    },
+    {
+      "category_id": 3,
+      "category_name": "Action",
+      "is_disliked": false,
+      "is_liked": true,
+      "show_age_limit": 16,
+      "show_category": "Action",
+      "show_description": "Batman faces off against the Joker in Gotham City.",
+      "show_id": 3,
+      "show_name": "The Dark Knight",
+      "show_rating": 9,
+      "show_time": "10:00 PM"
+    },
+    {
+      "category_id": 4,
+      "category_name": "Horror",
+      "is_disliked": true,
+      "is_liked": false,
+      "show_age_limit": 18,
+      "show_category": "Horror",
+      "show_description": "Paranormal investigators work to help a family plagued by dark forces.",
+      "show_id": 4,
+      "show_name": "The Conjuring",
+      "show_rating": 7,
+      "show_time": "11:00 PM"
+    },
+    {
+      "category_id": 5,
+      "category_name": "Sci-Fi",
+      "is_disliked": false,
+      "is_liked": true,
+      "show_age_limit": 13,
+      "show_category": "Sci-Fi",
+      "show_description": "A team of explorers travels through a wormhole in space to ensure humanity’s survival.",
+      "show_id": 5,
+      "show_name": "Interstellar",
+      "show_rating": 8,
+      "show_time": "7:00 PM"
+    },
+    {
+      "category_id": 1,
+      "category_name": "Drama",
+      "is_disliked": false,
+      "is_liked": true,
+      "show_age_limit": 16,
+      "show_category": "Drama",
+      "show_description": "The story of lawyer Jimmy McGill before Breaking Bad.",
+      "show_id": 6,
+      "show_name": "Better Call Saul",
+      "show_rating": 8,
+      "show_time": "8:30 PM"
+    },
+    {
+      "category_id": 2,
+      "category_name": "Comedy",
+      "is_disliked": false,
+      "is_liked": true,
+      "show_age_limit": 13,
+      "show_category": "Comedy",
+      "show_description": "A funny police sitcom in Brooklyn.",
+      "show_id": 7,
+      "show_name": "Brooklyn Nine-Nine",
+      "show_rating": 8,
+      "show_time": "9:30 PM"
+    },
+    {
+      "category_id": 3,
+      "category_name": "Action",
+      "is_disliked": true,
+      "is_liked": false,
+      "show_age_limit": 18,
+      "show_category": "Action",
+      "show_description": "A retired hitman seeks revenge.",
+      "show_id": 8,
+      "show_name": "John Wick",
+      "show_rating": 9,
+      "show_time": "10:30 PM"
+    },
+    {
+      "category_id": 4,
+      "category_name": "Horror",
+      "is_disliked": true,
+      "is_liked": false,
+      "show_age_limit": 18,
+      "show_category": "Horror",
+      "show_description": "A shape-shifting clown haunts children in a small town.",
+      "show_id": 9,
+      "show_name": "It",
+      "show_rating": 7,
+      "show_time": "11:30 PM"
+    },
+    {
+      "category_id": 5,
+      "category_name": "Sci-Fi",
+      "is_disliked": false,
+      "is_liked": true,
+      "show_age_limit": 13,
+      "show_category": "Sci-Fi",
+      "show_description": "Kids uncover supernatural mysteries in their town.",
+      "show_id": 10,
+      "show_name": "Stranger Things",
+      "show_rating": 9,
+      "show_time": "7:30 PM"
+    }
+  ]
+}

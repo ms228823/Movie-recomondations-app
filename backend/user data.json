@@ -1,0 +1,21 @@
+{
+    "email_or_phone": "bob.smith@example.com",
+    "id": 2,
+    "name": "Bob Smith",
+    "likedMedia": [
+      { "media": "movie", "moviesids": [1, 2, 3, 4, 5] },
+      { "media": "series", "seriesids": [1, 2, 3, 4, 5] }
+    ],
+    "dislikedMedia": [
+      { "media": "moivie", "moviesids": [1, 2, 3, 4, 5] },
+      { "media": "series", "seriesids": [1, 2, 3, 4, 5] }
+    ],
+    "watchLaterMedia": [
+      { "media": "moivie", "moviesids": [1, 2, 3, 4, 5] },
+      { "media": "series", "seriesids": [1, 2, 3, 4, 5] }
+    ],
+    "blockedMedia": [
+      { "media": "moivie", "moviesids": [1, 2, 3, 4, 5] },
+      { "media": "series", "seriesids": [1, 2, 3, 4, 5] }
+    ]
+}

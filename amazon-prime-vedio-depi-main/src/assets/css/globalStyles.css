@@ -1,0 +1,72 @@
+:root {
+  --action-background-color: #c8c8c8;
+  --main-text-color: #ffffff;
+  --primary-bg-color: #00050d;
+  --bg-color-lighter: #1b232d; /*for the nav bar background color*/
+  --bg-hover-color: #e8e8e9;
+  --primary-btn-background: radial-gradient(
+      50% 50% at 50% 0,
+      rgba(var(--action-background-color, 255, 255, 255), 0.8) 0,
+      transparent 100%
+    ),
+    hsla(0, 0%, 100%, 0.2);
+
+  --border-radius: 8px; /*to update with rem unit*/
+  --font-size-primary: 16px;
+  --font-size-md: 18px; /*see more button , category name on the category slider*/
+}
+
+.main-button {
+  background: var(--primary-btn-background);
+  background-origin: border-box;
+  border-image: linear-gradient(
+      90deg,
+      hsla(0, 0%, 100%, 0) 10%,
+      hsla(0, 0%, 100%, 0.3) 50%,
+      hsla(0, 0%, 100%, 0) 90%
+    )
+    1/2px;
+  border-image-width: 2px 0 0 0;
+  box-shadow: 0 -4px 16px 0 rgba(var(--action-background-color, 255, 255, 255), 0.2);
+  border-radius: 8px;
+  outline: none;
+  border: none;
+  color: #fff;
+  font-weight: bold;
+  padding: 10px 20px;
+  cursor: pointer;
+  transition: background 0.3s ease;
+  width: fit-content;
+}
+.main-button:hover {
+  background: var(--bg-hover-color);
+}
+
+/* 
+https://m.media-amazon.com/images/G/02/CerberusPrimeVideo-FN38FSBD/adult-1.png
+&&
+https://m.media-amazon.com/images/G/02/CerberusPrimeVideo-FN38FSBD/kid-1.png
+
+by changing the number of the last part /adult-1.png or /kid-1.png
+from 1 to 10 you can get different user profile colors :),
+you could try it on you browser search bar
+NOTE: absolutly this will be done by code, we will not  
+      manually hard coded the all 10 posaible photos  
+*/
+
+.profile-icon-container {
+  border-radius: 100%;
+  padding: 5px;
+  width: fit-content;
+}
+.profile-icon-container:hover {
+  background-color: var(--bg-hover-color);
+}
+
+.profile-icon-container .profile-icon {
+  width: 36px;
+  height: 36px;
+  background-position: center;
+  background-size: cover;
+  background-image: url("https://m.media-amazon.com/images/G/02/CerberusPrimeVideo-FN38FSBD/adult-1.png");
+}

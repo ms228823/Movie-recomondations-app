@@ -1,0 +1,39 @@
+* {
+  box-sizing: border-box;
+}
+
+.myStuffPage {
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  background-color: #111;
+  color: white;
+  height: 125vh;
+  top: 0%;
+  bottom: 0%;
+  left: 0%;
+  right: 0%;
+  padding: 1% 10%;
+  font-family: Arial, sans-serif;
+}
+
+.myStuffPage div:first-child {
+  margin-top: 50px;
+  background-color: #111;
+}
+.myStuffPage div {
+  background-color: #111;
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  justify-content: center;
+}
+
+a {
+  color: aliceblue;
+  text-decoration: underline;
+}
+a:hover {
+  cursor: pointer;
+  color: aliceblue;
+}

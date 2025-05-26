@@ -1,0 +1,8 @@
+.swiper-slide {
+  perspective: 1600px;
+  position: relative;
+}
+
+.swiper:has(.movie-popup:hover) {
+  overflow: visible;
+}

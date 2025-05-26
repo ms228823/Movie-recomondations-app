@@ -1,0 +1,135 @@
+/* General container styling */
+.profile-selection-container {
+  background-color: #0f171e;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  color: white;
+  font-family: Arial, sans-serif;
+}
+
+/* Logo styling */
+.logo {
+  font-size: 24px;
+  color: #00a8e1;
+  margin: 20px;
+}
+
+/* Main content styling */
+.main-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  flex-grow: 1;
+  justify-content: center;
+}
+
+.main-content h1 {
+  font-size: 36px;
+  margin-bottom: 40px;
+}
+
+/* Profiles container */
+.profiles {
+  display: flex;
+  gap: 40px;
+  margin-bottom: 40px;
+}
+
+/* Individual profile styling */
+.profile {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  cursor: pointer;
+}
+
+.profile p {
+  margin-top: 10px;
+  font-size: 16px;
+  color: #d1d4dc;
+}
+
+/* Avatar styling */
+.avatar {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 40px;
+  color: white;
+  transition: transform 0.3s ease, box-shadow 0.3s ease; /* Smooth transition for hover effects */
+}
+
+/* Hover effect for avatars */
+.avatar:hover {
+  transform: scale(1.1); /* Scale up by 10% */
+  box-shadow: 0 0 15px rgba(255, 255, 255, 0.5); /* Add a white glow effect */
+}
+
+/* Default avatar (blue circle) */
+.default-avatar {
+  width: 60px;
+  height: 60px;
+  background-color: white;
+  border-radius: 50%;
+}
+
+/* Kids avatar (yellow star) */
+.kids {
+  background-color: #f5c518;
+}
+
+.kids-avatar {
+  font-size: 50px;
+}
+
+/* Add new profile avatar (grey circle with plus) */
+.add-new {
+  background-color: #2a2e35;
+  font-size: 50px;
+}
+
+/* Edit profile button */
+.edit-profile {
+  padding: 10px 20px;
+  font-size: 16px;
+  background-color: transparent;
+  color: white;
+  border: 1px solid #d1d4dc;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.edit-profile:hover {
+  background-color: #2a2e35;
+}
+
+/* Footer styling */
+footer {
+  text-align: center;
+  padding: 20px;
+  font-size: 14px;
+  color: #d1d4dc;
+}
+
+.footer-links {
+  margin-bottom: 10px;
+}
+
+.footer-links a {
+  color: #00a8e1;
+  text-decoration: none;
+  margin: 0 10px;
+}
+
+.footer-links a:hover {
+  text-decoration: underline;
+}
+
+footer p {
+  margin: 0;
+}

@@ -1,0 +1,47 @@
+.footerContainer {
+  height: 20vh;
+  width: 100vw;
+  position: relative;
+  bottom: 0%;
+  left: 0%;
+  right: 0%;
+  padding-top: 1px;
+  border-bottom-right-radius: 15px;
+  border-bottom-left-radius: 15px;
+  margin: 20px auto;
+}
+
+.footerLogo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 0px;
+}
+
+.footerLogoImg {
+  background-color: transparent;
+  color: #ffffff;
+  font-size: 100px;
+}
+
+.footerLstContainer {
+  margin-top: -20px;
+}
+.footerLst {
+  list-style-type: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.footerLstItem {
+  margin-left: 30px;
+}
+.footerLstLink {
+  color: #7189f3;
+  text-decoration: none;
+}
+.footerLstAdd {
+  color: #b1b1b1;
+  text-decoration: none;
+}

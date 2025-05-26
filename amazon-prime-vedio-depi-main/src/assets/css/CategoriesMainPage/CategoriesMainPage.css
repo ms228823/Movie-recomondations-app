@@ -1,0 +1,171 @@
+/* Global Rules Start
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Outfit", sans-serif;
+    font-optical-sizing: auto;
+    width: 100%;
+    scroll-behavior: smooth;
+    /* position: relative; *
+}
+
+body {
+    width: 100%;
+    background-color: #00040d;
+}
+/* hr {
+    background-color: #ededed;
+    border: none;
+    height: 3px;
+} */
+.nav {
+    width: 100%;
+    height: 7vh;
+    background-color: #00050d;
+}
+.nav p {
+    color: whitesmoke;
+    padding: Auto;
+} */
+.container {
+    
+    background-color: #00040d;
+    height: 100%;
+    /* width: 82.5%; */
+    width: 92vw;
+    margin: auto;
+    margin-left: 10vw;
+    /* border: 3px #ededed solid; */
+    
+    
+}
+.header {
+    margin-top:20px;
+    margin-bottom: 10px;
+    font-weight: bolder;
+    font-size: large;
+}
+
+.header h2 , h4 , h3,h6{
+color: #fdfefe;
+}
+
+/* .cat1 , .cat2 {
+    
+display: flex;
+justify-content: space-evenly;
+
+align-items: center;
+gap: 20px;
+} */
+/* .big {
+    display: grid;
+    gap: 50px ;
+} */
+.cat1  {
+    width: 80vw;
+    display: grid
+;
+    grid-gap: 10px;
+    grid-template-columns: repeat(auto-fill, 15vw);
+
+}
+.g1 ,.g2,
+.g3,.g4, 
+.g5 ,.g6 ,
+.g7, .g8,
+.g9, .g10
+ {
+transition: ease-in-out .3s;
+
+height: 108px;
+border-radius: 3px;
+border: none;
+/* text-align: center; */
+align-content: center;
+padding: 30px;
+font-weight: bold;
+font-size: 17px;
+}
+
+.g1 {
+cursor: pointer;
+    background-image: linear-gradient(to bottom left, rgb(26, 49, 57,0), rgb(26, 49, 57,1));
+
+}
+.g2 {
+    cursor: pointer;
+    background-image: linear-gradient(to  bottom left,rgb(44, 45, 29,0), rgb(44, 45, 29,1));
+
+}
+.g3 {
+    cursor: pointer;
+    background-image: linear-gradient(to bottom left, rgb(26, 49, 57,0), rgb(26, 49, 57,1));
+
+}
+.g4 {
+    cursor: pointer;
+    background-image: linear-gradient(to bottom left, rgb(52, 33, 29,0), rgb(52, 33, 29,1));
+
+}
+.g5 {
+    cursor: pointer;
+    background-image: linear-gradient(to bottom left, rgb(32, 25, 56,0), rgb(32, 25, 56,1));
+
+}
+.g6 {
+    cursor: pointer;
+    background-image: linear-gradient(to bottom left, rgb(20, 38, 26,0), rgb(20, 38, 26,1));
+
+}
+.g7 {
+    cursor: pointer;
+    background-image: linear-gradient(to bottom left, rgb(49, 37, 29,0), rgb(49, 37, 29,1));
+
+}
+.g8 {
+    cursor: pointer;
+    background-image: linear-gradient(to bottom left, rgb(27, 34, 53,0), rgb(27, 34, 53,1));
+
+}
+.g9 {
+    cursor: pointer;
+    background-image: linear-gradient(to bottom left, rgb(48, 27, 42,0), rgb(48, 27, 42,1));
+
+}
+.g10 {
+    cursor: pointer;
+    background-image: linear-gradient(to bottom left, rgb(46, 47, 51,0), rgb(46, 47, 51,1));
+
+}
+
+g{
+    transition: ease-in-out .3s;
+}
+.g:hover{
+    scale: 105%;
+    box-shadow: 1.5px 1.5px #051b4f;
+    
+}
+
+
+
+@media only screen and (max-width:600px) {
+    .g1 ,.g2,
+.g3,.g4, 
+.g5 ,.g6 ,
+.g7, .g8,
+.g9, .g10 {
+    font-size: 15px;
+}
+
+.cat1  {
+    
+  grid-template-columns: repeat(auto-fill, 23.5vw);
+
+
+
+}
+
+}

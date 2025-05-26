@@ -1,0 +1,10 @@
+.logo_box{
+    width: fit-content;
+    margin: auto;
+    margin-top: 2.5vh;
+}
+
+.logo_box img {
+    width: 150px;
+    margin-bottom: 12.5px;
+}
